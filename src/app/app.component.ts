@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { ProductComponent } from './product/product.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, NavigationBarComponent],
+  imports: [CommonModule, RouterOutlet, NavigationBarComponent, ProductComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
