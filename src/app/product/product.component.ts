@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Pot } from '../../assets/pot';
+import { HtmlParser } from '@angular/compiler';
 
 @Component({
   selector: 'app-product',
@@ -10,15 +12,26 @@ import { CommonModule } from '@angular/common';
 })
 
 export class ProductComponent {
-  name : string = "Product1";
-  // description : string;
-  // imageUrl : string;
-  // price : string;
+  name : string = Pot.name;
+  price : number = Pot.price;
+  description : string = Pot.description;
+  image : string = Pot.picturePath;
 
-  // constructor(productName: string) {
-  //   this.name = productName;
-  //   // this.description = productDescription;
-  //   // this.imageUrl = productImageUrl;
-  //   // this.price = productPrice;
-  // }
+  constructor(){
+    this.name = Pot.name;
+    this.price = Pot.price;
+    this.description = Pot.description;
+    this.image = Pot.picturePath;
+  }
+  seeArray() : string{
+    return (this.name + "<br>" + 
+            this.price +  "<br>" +
+            this.description + "<br>" +
+            `<img src = "${this.image}">`);
+  }
+
+  public seeHtml() : void{
+    
+  }
+
 }
