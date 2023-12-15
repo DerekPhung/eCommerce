@@ -1,0 +1,33 @@
+
+
+#pBox{
+    border: 2px solid black;
+    width: 240px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+#pName{
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+#pReview{
+    text-align: center;
+}
+
+#pDes{
+    margin: 5px;
+}
+
+#pPrice{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#pImage{
+    width: 100%;
+}
+#pImageBox{}
