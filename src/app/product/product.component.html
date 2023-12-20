@@ -1,8 +1,8 @@
 <div id="pBox">
-    <div id="pImageBox"><img id="pImage" src="{{ image }}"></div>
-    <div id="pName">{{ name }}</div>
+    <div id="pImageBox"><img id="pImage" src="{{ item.picturePath }}"></div>
+    <div id="pName">{{ item.name }}</div>
     <div id="pReview">⭐⭐⭐⭐⭐</div>
-    <div id="pDes">{{ description }}</div>
-    <div id="pPrice">${{ price }}</div>
+    <div id="pDes">{{ item.description }}</div>
+    <div id="pPrice">${{ item.price }}</div>
     
 </div>

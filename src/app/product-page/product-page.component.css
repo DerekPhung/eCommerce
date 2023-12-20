@@ -4,7 +4,7 @@
 }
 #outerBox{
     /* border: 2px solid purple; */
-    width: 100%;
+    width: 100vw;
     display: grid;
     place-items: center;
 }
