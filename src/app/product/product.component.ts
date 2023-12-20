@@ -1,5 +1,7 @@
 import { Component, Input, ViewEncapsulation } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Pot } from '../../assets/pot';
+import { HtmlParser } from '@angular/compiler';
 
 @Component({
   selector: 'app-product',
@@ -11,5 +13,4 @@ import { CommonModule } from '@angular/common';
 
 export class ProductComponent {
   @Input() item: any;
-
 }

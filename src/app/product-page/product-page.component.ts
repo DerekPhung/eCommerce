@@ -14,4 +14,5 @@ export class ProductPageComponent {
 
   items = Items;
 
+
 }
