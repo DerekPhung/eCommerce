@@ -1,25 +1,8 @@
 <div id="outerBox">
     <p>Products:</p>
-    <!-- <app-product></app-product>
-    <hr>
-    <app-product></app-product>
-    <hr>
-    <app-product></app-product>
-    <hr>
-    <app-product></app-product> -->
-
     <div id="box">
-        <!-- this is cool but wait I think it got out of hand -->
-        <!-- <li *ngFor="let index of testing">
-            <div>{{index.name}}</div>
-            <div>${{index.price}}.00</div>
-            <div>{{index.description}}</div>
-            <div><img id="potImage" src="{{ index.image }}"></div>
-        </li> -->
-
-        <!-- I just realize something stupid -->
-        <div class="pComponent" *ngFor="let i of [].constructor(25)">
-            <app-product ></app-product>
+        <div>
+            <app-product class="pComponent" *ngFor="let item of items" [item]="item"></app-product>
         </div>
 
     </div>
