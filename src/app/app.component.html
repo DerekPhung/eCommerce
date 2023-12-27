@@ -1,25 +1,12 @@
-<style>
-  main {
-    width: 100%;
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    box-sizing: inherit;
-    position: relative;
-  }
-</style>
-
 <main class="main">
   <div class="content">
     <app-navigation-bar></app-navigation-bar>
-    <br><br><br><br>
-    <app-product-page></app-product-page>
 
-    
+    <router-outlet></router-outlet>
+
   </div>
+
+
 </main>
 
 
-<router-outlet></router-outlet>

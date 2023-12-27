@@ -17,10 +17,15 @@ a {
     width: 100%;
 }
 
-/* .navbar {
-    border: 2px solid yellow;
-} */
+.nav-link {
+    /* border: 2px solid yellow; */
+    width: fit-content;
+}
 
 #cart-right ul{
     float: right;
+}
+
+.navbar {
+    border-radius: 20px;
 }
