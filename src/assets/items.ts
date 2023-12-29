@@ -15,11 +15,29 @@ export let Items = [{
     "price": 200,
     "description": "When filled it will never run out. The amount it contains can put out the sun!",
     "picturePath": "https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjgxLTAwMjItbDFsZ2VuZWwucG5n.png"
+},
+{
+    "name": "The Pan",
+    "price": 55,
+    "description": "This is a pan! This pan is the ultimate pan! Everyone wishes to acquire such a pan!",
+    "picturePath": "https://i.ebayimg.com/images/g/fZAAAOSwvEFjV~wQ/s-l1200.webp"
+},
+{
+    "name": "The Kettle",
+    "price": 35,
+    "description": "Don't mettle with the Kettle!",
+    "picturePath": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71lFr2rBXuL.jpg"
+},
+{
+    "name": "Great Mug",
+    "price": 200,
+    "description": "When filled it will never run out. The amount it contains can put out the sun!",
+    "picturePath": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71lFr2rBXuL.jpg"
 }
-// {
-//     "name": "",
-//     "price": 20,
-//     "description": "",
-//     "picturePath":""
-// },
+    // {
+    //     "name": "",
+    //     "price": 20,
+    //     "description": "",
+    //     "picturePath":""
+    // },
 ]

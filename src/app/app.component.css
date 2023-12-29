@@ -6,6 +6,10 @@
 
 }
 
+app-navigation-bar {
+    margin-bottom: 100px;
+}
+
 main {
     width: 100%;
     min-height: 100%;
