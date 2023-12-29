@@ -3,14 +3,14 @@ import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-
 import { SignupComponent } from './signup/signup.component';
+import { HomeComponent } from './home/home.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, NavigationBarComponent,ProductPageComponent, SignupComponent],
+  imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive, NavigationBarComponent,ProductPageComponent, SignupComponent, HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
